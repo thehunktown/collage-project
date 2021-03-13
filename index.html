@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>titleName|Ecommerce website</title>
+    <link rel="Stylesheet" href="style.css">
+    <!--for font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <!--now all thing of the nev bar i can add  in the container class-->
+        <div class="container">
+            <div class="nevbar">
+                <div class="logo">
+                    <img src="assets/logo.jfif" width="120px">
+                    <!--this tag for image   src="file path" -->
+                </div>
+                <nev>
+                    <ul id="MenuItems">
+                        <li><a href="">home</a></li>
+                        <li><a href="">products</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">contect</a></li>
+                        <li><a href="">account</a></li>
+                    </ul>
+                </nev>
+                <img src="assets/addtocard.png" width="30px" height="30px">
+                <img src="assets/menu.png" class="menu icon" onclick="menutoggle()" height="30px" weidth="30px">
+                <!--add to card-->
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>
+                        helthy taste make helthy day
+                        <!--title that you put on manu page we use <br> to change the line-->
+                    </h1>
+                    <P>
+                        here you found a taste with no money waste.
+                        <!-- the discription of the item in small text-->
+                    </P>
+                    <a href="" btn="btn">Explor Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="assets/background image.jfif" height="90px" width="75px">
+                    <!--image of the home page -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-----<<<<<<<<<--------Fetured categories-----<<<<<<<<<<---->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <!--here i'll add image with src path-->
+                    <img src="assets/crunchy.jfif">
+                </div>
+                <div class="col-3">
+                    <img src="assets/menu.jpg">
+                </div>
+                <div class="col-3">\
+                    <img src="assets/sabudanakhichdi.jfif">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--<<<<<<<<<<<<<<<<--feture product--<<<<<<<<<<<<<<<<<<--->
+    <div class="small-container">
+        <h2 class="title">fetured products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="assets/panipuri.jfif" >
+                <h4>
+                    pani-puri
+                    <!---product name -->
+                </h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>$50.00</p>
+
+            </div>
+            <div class="col-4">
+                <img src="assets/pasta.jfif" >
+                <!--product image 2-->
+                <h4>
+                    pasta
+                    <!---product name  -->
+                </h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>$50.00</p>
+
+            </div>
+            <div class="col-4">
+                <img src="assets/pizza.jfif">
+                <!--product image  2-->
+                <h4>pizza
+                    <!--patees----->
+                </h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>$50.00</p>
+
+            </div>
+            <div class="col-4">
+                <img src="assets/poofs.jfif" >
+                <!--product image 3-->
+                <h4>
+                    Poofs
+                    <!---product name-->
+                </h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <p>$40.00</p>
+                <div class="col-4">
+                    <img src="assets/Psendwitch.jfif">
+                    <!--product image 3-->
+                    <h4>
+                        sand-witch
+                        <!---product name-->
+                    </h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <p>$30.00</p>
+
+                </div>
+            </div>
+
+            <div class="title">Letest product</div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="assets/rice.jfif">
+                    <h4>
+                        rice-permal
+                        <!---product name -->
+                    </h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p>$80.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="assets/rus-malai.jfif" alt="">
+                    <!--product image 2-->
+                    <h4>
+                        Rus-malai
+                        <!---product name  -->
+                    </h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p>$80.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="assets/sweetCheesPasta.jfif">
+                    <!--product image  2-->
+                    <h4>
+                        sweet chiz pasta 
+                        <!---product name-->
+                    </h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-4">
+                            <img src="assets/sweetCheesPasta.jfif">
+
+                    <!--product image 3-->
+                    <h4>
+                        SweetChizPasta
+                        <!---product name-->
+                    </h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <p>$50.00</p>
+                    <div class="col-4">
+                        <img src="assets/aalo ka paratha.jfif">
+                        <!--product image 3-->
+                        <h4>
+                            aloo ka paratha 
+                            <!---product name-->
+                        </h4>
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        </div>
+                        <p>$50.00</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!----<<<<---offer----<<<<<<<-->
+            <div class="div">
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="assets/p foot.jfif" class="offer-img">
+                        </div>
+                        <div class="col-2">
+                            <p>execlusively available on ash zunky</p>
+                            <h1>Indian Sahi Thali</h1>
+                            <small>
+                                this is royal indian thali belongs from ragisthan <dr>
+                                    culture.
+                                <!--feture line of the product-->
+                            </small>
+                            <a href="" class="btn">buy now &#8594;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--<<<<<<<-----testimonial ------<<<<<<<<<<-->
+            <div class="testimonial">
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-3">
+                            <i class="fa fa-quote-lef"></i>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto rerum fuga quis delectus.
+                                Deserunt doloribus dolore, quidem, sunt tempore, iste similique fugit ratione
+                                perspiciatis commodi hic laudantium tempora minima provident eveniet odio nemo
+                                doloremque.</p>\
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                            </div>
+                            <img src="assets/ashu.jfif">
+                            <h3>ashu</h3>
+                        </div>
+                        <div class="col-3">
+                            <i class="fa fa-quote-lef"></i>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto rerum fuga quis delectus.
+                                Deserunt doloribus dolore, quidem, sunt tempore, iste similique fugit ratione
+                                perspiciatis commodi hic laudantium tempora minima provident eveniet odio nemo
+                                doloremque.</p>\
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                            </div>
+                            <img src="assets/shrayansh.jfif">
+                            <h3>shrayash garg</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----<<<<<--- footer  ----<<<<<---->
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col-1">
+                            <h3>download our app</h3>
+                            <div class="app-logo">
+                                <img src="images/play-store.png">
+                                <img src="images/app-store.png">
+                            </div>
+                            <p>download our app for ios mobile phone</p>
+                        </div>
+                        <div class="footer-col-2">
+                            <img src="">
+                            <p>our purpose to sustainbility make the plasure and benefit of sports
+                                assible to many</p>
+                        </div>
+                        <div class="footer-col-3">
+                            <h3>useful link</h3>
+                            <ul>
+                                <li>coupons</li>
+                                <li>blog post</li>
+                                <li>return policy</li>
+                                <li>join affiliate</li>
+                            </ul>
+                        </div>
+                        <div class="footer-col-4">
+                            <h3>follow us</h3>
+                            <ul>
+                                <li>facebook</li>
+                                <li>twitter</li>
+                                <li>instagram</li>
+                                <li>youtube</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <p class="ashu"> ashu </p>
+                </div>
+            </div>
+            <!-- js for togle manu -->
+            <script>
+                var MwnuItems = document.getElementById("MenuItems")
+                MenuItems.style.maxHeight = "0px";
+                function manutoggle() {
+                    if (MenuItems.style.maxHeight == "0px") {
+                        MenuItems.style.maxHeight = "200px";
+                    }
+                    else {
+                        MenuItems.style.maxHeight = "0px"
+                    }
+                }
+            </script>
+</body>
+</html>
